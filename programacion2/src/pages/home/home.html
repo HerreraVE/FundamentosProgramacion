@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Operaciones
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Número</ion-label>
+      <ion-input type="text" [(ngModel)]="numero1"></ion-input>
+    </ion-item>
+
+  </ion-list>
+
+  <button ion-button full color="dark" (click)="calcular()" >Calcular</button>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label stacked>Resultado</ion-label>
+      <ion-input type="number" [(ngModel)]="resultado"></ion-input>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
