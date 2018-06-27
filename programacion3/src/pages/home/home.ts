@@ -1,4 +1,4 @@
-import { Component, ViewChild, NgModule } from '@angular/core';
+import { Component, ViewChild, NgModule, OnInit } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { } from '@types/googlemaps';
 
